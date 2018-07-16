@@ -1,0 +1,32 @@
+Implementation of Devops Flow:
+==============================
+Java - jdk : Oracle.com
+Maven is a building tool: https://maven.apache.org/download.cgi
+GIT SCM: https://git-scm.com/downloads
+Jenkins is a CI/CT/CD tool to create a pipeline and build the applications: https://jenkins.io/download
+
+Jav, Maven and GIT SCM are pre-req for Jenkins
+To start Jenkins server
+Go to Command Prompt: cd (path of Jenkins war)
+execute: java -jar jenkins.war
+
+google: localhost:8080, provide pasword which will be there in command prompt
+
+For different host number
+java -jar jenkins.war -httpPort 5463
+localhost:5463
+
+Open Jenkins
+Goto -> Manage Jenkins -> Global Tool Configuration:
+Provide name and path of java,GIT and Maven and uncheck install automatically and save
+C:\Program Files\Java\jdk1.8.0_171
+C:\Program Files\Git\bin\git.exe
+C:\Program Files\apache-maven-3.5.4-bin\apache-maven-3.5.4
+
+Go to github.com-> create login
+Can add collaborators in the setting-> collaborators 
+
+
+
+
+
